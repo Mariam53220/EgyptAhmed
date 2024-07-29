@@ -1,0 +1,116 @@
+
+body {
+    background-color: #d87e8d;
+    font-family: "Helvetica", sans-serif;
+    color: #800080;
+    background-image: url('https://marketplace.canva.com/EAFCO6pfthY/1/0/1600w/canva-blue-green-watercolor-linktree-background-F2CyNS5sQdM.jpg');
+  }
+  h1 {
+    color: #FFF8DC;
+    font-family: "Times New Roman", serif;
+  }
+  h2 {
+    font-family: "Times New Roman", serif;
+  }
+  h3 {
+    font-family: "Brush Script MT", serif;
+    font-style: italic;
+  }
+  header {
+    margin-top: 50px;
+  }
+  a {
+    color: #6600FF;
+  }
+  nav ul {
+    background-color: #FF3647;
+    border-style: solid;
+    border-color: #C71585;
+    border-width: 2px;
+    padding: 10px;
+    border-radius: 10px;
+   
+  }
+  nav ul li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #FFEFD5;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: #880055;
+  }
+  /* Add hover effects to the nav menu directly instead of with a class */
+  nav ul li a:hover {
+    animation-name: glowPulse;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+  }
+  
+  img {
+    border-radius: 30px;
+    border: 2px solid white;
+  }
+  img:hover {
+    border: 2px dashed navy;
+  }
+
+  section {
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-top-color: #F5FFFA;
+    padding-bottom: 10px;
+  }
+  
+  article {
+    border-radius: 10px;
+    background-color: #85E0E0;
+    padding: 10px;
+  }
+  
+  
+  /* CSS Classes */
+  
+  .purpleBackground {
+    background-color: #ccb3ff;
+  }
+  
+  .darkerBackground {
+    background-color: #aa80ff;
+  }
+  
+  .sectionSpacing {
+    padding: 10px;
+    margin-top: 20px;
+  }
+
+  section {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #F5FFFA;
+  padding-bottom: 10px;
+}
+
+article {
+  border-radius: 10px;
+  background-color: #85E0E0;
+  padding: 10px;
+}
+
+
+/* CSS Classes */
+
+.purpleBackground {
+  background-color: #ccb3ff;
+}
+
+.darkerBackground {
+  background-color: #aa80ff;
+}
+
+.sectionSpacing {
+  padding: 10px;
+  margin-top: 20px;
+}
